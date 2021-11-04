@@ -45,5 +45,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 5076
+EXPOSE $PORT
 VOLUME /config
