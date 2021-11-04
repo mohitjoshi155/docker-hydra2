@@ -43,7 +43,8 @@ RUN \
 
 # copy local files
 COPY root/ /
+COPY ./config /config
 
 # ports and volumes
 EXPOSE $PORT
-VOLUME /config
+
